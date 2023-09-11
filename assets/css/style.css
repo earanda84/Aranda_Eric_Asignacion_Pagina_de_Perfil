@@ -49,7 +49,6 @@ nav {
 nav>ul {
     flex: 0.8;
     display: inline-flex;
-    /* border: solid; */
     list-style: none;
     gap: 50px;
     font-weight: bolder;
@@ -70,7 +69,6 @@ nav>ul {
 .btn:hover {
     transform: scale(1.1);
     transition-duration: 700ms;
-    /* transform: rotate(10deg); */
 }
 
 main {
@@ -81,14 +79,12 @@ main {
 }
 
 section {
-    /* border: solid; */
     flex: 1;
 
 }
 
 section.col-2 {
     display: flex;
-    /* border: solid; */
     flex: 0.5;
 }
 
@@ -104,18 +100,9 @@ section.col-2 {
 
 .card {
     outline: 3px solid lightgray;
-    /* background-color: rgb(249, 249, 249); */
     border-radius: 5px 5px 0px 0px;
 }
 
-/* 
-.card:hover {
-    transform: scale(1.1);
-    transition: all;
-    transition-duration: 1000ms;
-    background-color: rgb(126, 134, 126);
-    color: #FFF;
-} */
 
 #card-header {
     width: auto;
@@ -187,7 +174,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: center; */
     padding: 20px 0 20px 20px;
     gap: 10px;
     font-weight: bolder;
@@ -201,18 +187,9 @@ a {
 /* CARD CONNECTIONS */
 .card.card-connections,
 .card.card-your-connections {
-    /* background-color: red; */
-    /* display: flex; */
-    /* flex: column; */
-    /* flex-direction: column; */
     flex: 1;
 }
 
-/* .card-connections>* {
-    background-color: auto;
-    display: flex;
-    justify-content: space-evenly;
-} */
 .card.card-connections {
     flex: 4;
 }
@@ -224,7 +201,6 @@ a {
 .card-header-connections {
     display: flex;
     justify-content: space-evenly;
-    /* width: auto; */
     background-color: rgb(49, 48, 48);
     padding: 10px 20px;
     outline: 3px solid rgb(49, 48, 48);
@@ -251,13 +227,9 @@ a {
 
 .card-body-connections>ul * {
     display: flex;
-    /* flex: 1; */
     justify-content: space-evenly;
     align-items: center;
     margin: 10px 0 0 0;
-    /* align-items: stretch; */
-    /* flex-direction: column; */
-    /* border: solid; */
 }
 
 ul>li>button {
@@ -281,22 +253,16 @@ ul>li>button {
     display: flex;
     flex: 1;
     gap: px;
-    /* border: solid; */
-    /* flex-direction: ; */
-    /* justify-content: space-around; */
     justify-content: space-around;
     align-items: center;
     gap: 20px;
     padding: 0 0 0 20px;
-    /* align-self: center; */
 }
 
 .list-position>p {
     display: flex;
     flex: 1;
     justify-content: flex-start;
-    /* border: solid; */
-    /* padding-right: 100px; */
 }
 
 .card-footer {
